@@ -23,34 +23,31 @@
 </div>
 
 <div class="container main">
-    <form class="form-group" style="text-align: center">
-        <H4>Ведите количество измерений:</H4>
-        <input type="text" class="form-control numberForm" id="numberForm"
-               placeholder="число" value="">
+    <form class="form-group" style="text-align: center" novalidate>
         <h4>Введите полученный результат от каждого измерения в отдельное поле (результат в секундах):</h4>
         <br>
         <div class="containerFor0-5">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements0"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements0"
                    placeholder="1 число" value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements1"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements1"
                    placeholder="2 число" value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements2"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements2"
                    placeholder="3 число" value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements3"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements3"
                    placeholder="4 число" value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements4"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements4"
                    placeholder="5 число" value="">
         </div>
         <div class="containerFor6-10">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements5" placeholder="6 число"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements5" placeholder="6 число"
                    value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements6" placeholder="7 число"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements6" placeholder="7 число"
                    value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements7" placeholder="8 число"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements7" placeholder="8 число"
                    value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements8" placeholder="9 число"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements8" placeholder="9 число"
                    value="">
-            <input type="text" class="form-control numberForm" id="numberOfMeasurements9" placeholder="10 число"
+            <input type="number" class="form-control numberForm" id="numberOfMeasurements9" placeholder="10 число"
                    value="">
         </div>
         <div class="row" style="margin-top: 10px">
@@ -58,13 +55,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4 style="margin-top: 15px;">Введите индекст стюдента:
-                            <input style="margin-left: 15px" type="text" class="form-control numberForm" id="studentNumber"
+                            <input style="margin-left: 15px" type="number" class="form-control numberForm" id="studentNumber"
                                    placeholder="Введите число" value="">
                         </h4>
                     </div>
                     <div class="col-md-12">
                         <H4>Ведите предельную приборную:
-                            <input type="text" class="form-control numberForm" id="predPriborVal"
+                            <input type="number" class="form-control numberForm" id="predPriborVal"
                                    placeholder="число" value="">
                         </H4>
                     </div>
@@ -79,17 +76,24 @@
 </div>
 
 <div class="container resultContainer" style="margin-top: 15px">
-    <h6>Среднее значение введеных чисел: <span id="average_class"></span></h6>
+    <h4>Среднее значение введеных чисел: <span id="average_class"></span></h4>
+    <hr>
     <h4>Квадрат суммы погрешности отдельных измерений: <span id="deltaSum_class"></span></h4>
+    <hr>
     <h4>Средняя квадратичная погрешность: <span id="averageSquareError"></span></h4>
+    <hr>
     <h4>Погрешность среднего арифметического: <span id="meanSquareArithmetic"></span></h4>
+    <hr>
     <h4>Случайная погрешность: <span id="Xsluchayniy"></span></h4>
+    <hr>
     <h4>Абсолютная погрешность: <span id="AbsoluteError"></span></h4>
+    <hr>
     <h4>Финальное значение:
         <span id="average_final"></span>
         <span>&#177;</span>
         <span id="Xsluchayniy_final"></span>
     </h4>
+    <hr>
 
 </div>
 

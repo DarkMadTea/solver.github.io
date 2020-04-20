@@ -46,6 +46,9 @@ function kek() {
     var predPribor = Number((predPriborVal.value));
     console.log("predPribor: "+ predPribor);
 
+
+
+
     let arr = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth];
     var count = 0;
     for (let i = 0; i < arr.length; i++){
