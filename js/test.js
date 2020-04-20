@@ -75,11 +75,11 @@ function kek() {
 
     document.getElementById('deltaSum_class').innerHTML = deltaSum;
 
-    var deltaSum_devide_on_number = deltaSum / (number - 1);
+    var deltaSum_devide_on_number = deltaSum / (count - 1);
     var averageSquareError = Math.sqrt(deltaSum_devide_on_number);
     document.getElementById('averageSquareError').innerHTML = averageSquareError;
 
-    var meanSquareArithmetic = (averageSquareError/ (Math.sqrt(number)))
+    var meanSquareArithmetic = (averageSquareError/ (Math.sqrt(count)))
     document.getElementById('meanSquareArithmetic').innerHTML = meanSquareArithmetic;
 
     var Xsluchayniy = inputSt * meanSquareArithmetic;
