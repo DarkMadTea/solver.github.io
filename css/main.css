@@ -1,0 +1,45 @@
+.nav-item{
+    padding: 0 5px 0 5px;
+}
+
+.nav-tabs{
+    float: right;
+    margin-right: 10px;
+}
+
+.containerFor1-2, .containerFor3-5, .containerFor6-10{
+    padding: 5px 0 5px 0;
+}
+
+.for1-2{
+    padding-right: 2.5px !important;
+}
+
+.for3-5{
+    padding-left: 2.5px !important;
+}
+
+.btn-outline-primary{
+    width: 250px;
+    border-radius: 25px !important;
+    display: flex !important;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.numberForm{
+    display: initial !important;
+    width: 150px !important;
+}
+
+.nav-tabs .nav-link:hover{
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #ffffff;
+    transition: 0.7s;
+}
+
+.main{
+
+}
