@@ -40,6 +40,20 @@
     transition: 0.7s;
 }
 
-.main{
+@media (max-width: 768px) {
+    .img_student{
+        height: 302px;
+        width: 300px;
+    }
 
+    .resultContainer h4{
+        font-size: 1rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .numberForm{
+        margin: 5px;
+    }
 }
