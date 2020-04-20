@@ -1,1 +1,1 @@
-# solver.github.io
+# solver v1.0.0
