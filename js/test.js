@@ -39,8 +39,6 @@ function kek() {
     var tenth = Number((input9.value));
     console.log("tenth: " + tenth);
 
-    var number = Number((numberVal.value));
-    console.log("number: " + number);
 
     var inputSt = Number((inputStudent.value));
     console.log("inputSt: " + inputSt);
@@ -48,12 +46,19 @@ function kek() {
     var predPribor = Number((predPriborVal.value));
     console.log("predPribor: "+ predPribor);
 
+    let arr = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth];
+    var count = 0;
+    for (let i = 0; i < arr.length; i++){
+        if (arr[i] > 0){
+            count++
+        }
+    }
+    console.log("Count: " + count);
     var sum = first + second + third + fourth + fifth + sixth + seventh + eighth + ninth + tenth;
-    var average = sum / number;
+    var average = sum / count;
     console.log("average: "+average);
     document.getElementById('average_class').innerHTML = average;
 
-    let arr = [first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth];
     var deltaSum = 0;
     for (let i = 0; i < arr.length; i++){
         if (arr[i] > 0){
