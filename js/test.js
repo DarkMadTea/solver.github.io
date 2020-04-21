@@ -79,7 +79,7 @@ function kek() {
     var averageSquareError = Math.sqrt(deltaSum_devide_on_number);
     document.getElementById('averageSquareError').innerHTML = averageSquareError;
 
-    var meanSquareArithmetic = (averageSquareError/ (Math.sqrt(count)))
+    var meanSquareArithmetic = (averageSquareError/ (Math.sqrt(count)));
     document.getElementById('meanSquareArithmetic').innerHTML = meanSquareArithmetic;
 
     var Xsluchayniy = inputSt * meanSquareArithmetic;
@@ -90,6 +90,6 @@ function kek() {
     var AbsoluteError = (Math.sqrt(Math.pow(Xpredelniy, 2) + Math.pow(Xsluchayniy, 2)));
     document.getElementById('AbsoluteError').innerHTML = AbsoluteError;
 
-    document.getElementById('average_final').innerHTML = average;
+    document.getElementById('average_final').innerHTML = average + "<span>&#177;</span>";
     document.getElementById('Xsluchayniy_final').innerHTML = Xsluchayniy;
 }
